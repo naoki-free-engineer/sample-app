@@ -3,6 +3,13 @@
 
 /* 共通 */
 
+
+.navbar{
+  background-color: teal;
+  
+  
+}
+
 body {
   padding-top: 60px;
 }
@@ -25,6 +32,7 @@ textarea {
 
 /* タイポグラフィ */
 
+
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
@@ -34,6 +42,8 @@ h1 {
   letter-spacing: -2px;
   margin-bottom: 30px;
   text-align: center;
+  
+  
 }
 
 h2 {
@@ -42,7 +52,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: #fff;
 }
 
 p {
@@ -51,22 +61,47 @@ p {
 }
 
 /* ヘッダー */
-
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  font-style: italic;
+  
 }
 
 #logo:hover {
-  color: #fff;
+  color: gray;
   text-decoration: none;
 }
+#lego {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.0em;
+  color: #fff;
+  text-transform: capitalize;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  font-style: italic;
+  
+}
+
+#lego:hover {
+  color: gray;
+  background-color: teal;
+  text-decoration: none;
+}
+
+
+
+
+
+
 
 /* デバッグウインドウ */
 
